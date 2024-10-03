@@ -1,45 +1,1312 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jefrey Doria Portfolio</title>
-  </head>
-  <body>
-    <header>
-      <h1>Jefrey Doria</h1>
-      <img src="assets/images/Profile.jpg" alt="My Fece" />
-    </header>
-    <br />
-    <hr />
-    <h3>Navigation:</h3>
-    <nav>
-      <a href="pages/programming_languages.html">Programming Languages</a>
-      <br />
-      <a href="pages/hobbies_interests.html">Hobbies & Interests</a>
-      <br />
-      <a href="pages/favorite_foods_movies.html">Favorite Foods & Movies</a>
-    </nav>
-    <hr />
-    <div class="container">
-      <h2>Introduction</h2>
-      <p>
-        Hello! I'm Jefrey Doria ..... Don't really have anything else to say.
 
-        <br />
-        <br />
-        <br />
-      </p>
-      <h4>My Address is located at:</h4>
-      <a href="https://maps.app.goo.gl/zJDW7WTyknLaFu4o9" target="_blank">
-        Barangay Gabas, Baybay City, Leyte
-      </a>
+    <title>Jefrey Doria Portfolio</title>
+
+    <!-- Logos -->
+    <link
+      rel="icon"
+      href="assets\img\avatars\JD Logo 1000x1000.png"
+      sizes="any" />
+    <link
+      rel="apple-touch-icon"
+      href="assets/img/favicon/apple-touch-icon.png" />
+
+    <!-- Styles  -->
+    <link rel="stylesheet" href="css/loaders/loader.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+
+  <body>
+    <!-- Loader
+    <div id="loader" class="loader">
+      <div id="loaderContent" class="loader__content">
+        <div class="loader__shadow"></div>
+        <div class="loader__box"></div>
+      </div>
+    </div>-->
+
+    <!-- Header  -->
+    <header id="header" class="header d-flex justify-content-between">
+      <!-- Navigation -->
+      <div class="header__navigation">
+        <nav id="menu" class="menu">
+          <ul class="menu__list d-flex justify-content-start">
+            <li class="menu__item">
+              <a class="menu__link btn shadow" href="#home">
+                <span class="menu__caption">Home</span>
+                <i class="ph-bold ph-house-simple"></i>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link btn shadow" href="#portfolio">
+                <span class="menu__caption">Projects</span>
+                <i class="ph-bold ph-squares-four"></i>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link btn shadow" href="#about">
+                <span class="menu__caption">About Me</span>
+                <i class="ph-bold ph-user"></i>
+              </a>
+            </li>
+            <li class="menu__item"></li>
+              <a class="menu__link btn shadow" href="#services">
+                <span class="menu__caption">Services</span>
+                <i class="ph-bold ph-user"></i>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link btn shadow" href="#resume">
+                <span class="menu__caption">Resume</span>
+                <i class="ph-bold ph-article"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Navigation Menu End -->
+
+      <!-- Header Controls Start -->
+      <div class="header__controls d-flex justify-content-end">
+        <a
+          id="notify-trigger"
+          class="header__trigger btn"
+          href="mailto:jefreydoriawork@gmail.com">
+          <span class="trigger__caption">Contact</span>
+          <i class="ph-bold ph-chat-dots"></i>
+        </a>
+      </div>
+    </header>
+
+    <!-- Gradient Background -->
+
+    <div class="gradient-background">
+      <div class="blur"></div>
+      <div class="blur"></div>
+      <div class="blur"></div>
     </div>
-    <hr />
-    <br />
-    <br />
-    <footer>
-      <p>&copy; 2024 JefreyDoria. All rights reserved.</p>
-    </footer>
+
+    <!-- Profile Avatar Left Side -->
+    <div id="avatar" class="avatar">
+      <div
+        class="avatar__container d-flex flex-column justify-content-lg-between">
+        <!-- image and logo -->
+        <div class="avatar__block">
+          <div class="avatar__logo d-flex align-items-center">
+            <div class="logo__image">
+              <img
+                src="assets\img\avatars\JD Logo 1000x1000.png"
+                alt="JD_logo" />
+            </div>
+            <div class="logo__caption">
+              <p>Jefrey Doria</p>
+            </div>
+          </div>
+          <div class="avatar__image">
+            <img src="assets/img/avatars/Profile.jpg" alt="My-Face-hehe" />
+          </div>
+        </div>
+        <div class="avatar__block">
+          <h6>
+            <small class="top">Specialization:</small>
+            Fullstack Developer and Video Production Specialist
+          </h6>
+          <br />
+          <h6>
+            <small class="top">Location:</small>
+            Tagbilaran City, Bohol, Philippines
+          </h6>
+          <h6>
+            <br />
+            <small class="top">Email:</small>
+            jefreydoriawork@gmail.com
+          </h6>
+          
+        </div>
+        <!-- socials-->
+        <div class="avatar__block">
+          <div class="avatar__socials">
+            
+         <h5>
+          <small class="top">Socials:</small>
+         </h5>
+         <br/>
+            <ul class="socials-square d-flex justify-content-between">
+              <li class="socials-square__item">
+                <a
+                  class="socials-square__link btn"
+                  href="https://github.com/Jefrey-Doria"
+                  target="_blank">
+                  <i class="ph ph-github-logo"></i>
+                </a>
+              </li>
+              <li class="socials-square__item">
+                <a
+                  class="socials-square__link btn"
+                  href="https://www.linkedin.com/in/jefrey-doria-3a67181b9/"
+                  target="_blank">
+                  <i class="ph ph-linkedin-logo"></i>
+                </a>
+              </li>
+              <li class="socials-square__item">
+                <a
+                  class="socials-square__link btn"
+                  href="https://www.instagram.com/jefillist/"
+                  target="_blank">
+                  <i class="ph-bold ph-instagram-logo"></i>
+                </a>
+              </li>
+              <li class="socials-square__item">
+                <a
+                  class="socials-square__link btn"
+                  href="https://www.facebook.com/Jefillist/"
+                  target="_blank">
+                  <i class="ph ph-facebook-logo"></i>
+                </a>
+              </li>
+              <li class="socials-square__item">
+                <a
+                  class="socials-square__link btn"
+                  href="https://www.youtube.com/@enviuskidd1404"
+                  target="_blank">
+                  <i class="ph ph-youtube-logo"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Home Page Content  -->
+    <div id="content" class="content">
+      <div class="content__wrapper">
+        <!-- Introduction -->
+        <section id="home" class="main intro">
+          <!-- Tagline-->
+          <div
+            id="headline"
+            class="headline d-flex align-items-start flex-column"
+            data-speed="1">
+            <h1 class="headline__title animate-headline">
+              I am
+              <br />
+              Jefrey Doria
+            </h1>
+            <h3>
+              A Freelance Programmer
+              <br />
+              and Video Editor
+            </h3>
+            <div class="headline__btnholder d-flex flex-column flex-sm-row">
+              <a
+                class="btn mobile-vertical btn-default btn-hover btn-hover-accent-mobile animate-headline"
+                href="#portfolio">
+                <span class="btn-caption">My Works</span>
+                <i class="ph-bold ph-squares-four"></i>
+              </a>
+              <a
+                class="btn mobile-vertical btn-default btn-hover btn-hover-outline-mobile animate-headline"
+                href="assets/Jefrey Doria Resume.pdf"
+                download="Jefrey_Doria_Resume.pdf" >
+                <span class="btn-caption">Download CV</span>
+                <i class="ph-bold ph-download-simple"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="inner inner-first portfolio">
+          <div class="content__block section-grid-title">
+            <p class="h2__subtitle animate-in-up">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="13px"
+                height="13px"
+                viewBox="0 0 13 13"
+                fill="currentColor">
+                <path
+                  fill="currentColor"
+                  d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+              </svg>
+              <span>Recent Projects</span>
+            </p>
+            <h2 class="h2__title animate-in-up">Check out my recent projects</h2>
+          </div>
+
+          <!-- My Works -->
+          <div class="content__block grid-block">
+            <div class="container-fluid px-0 inner__gallery">
+              <div class="row gx-0 my-gallery">
+                <!-- Works carsd -->
+                <div
+                  class="col-12 col-md-6 gallery__item grid-item animate-card-2">
+                  <a
+                    href="https://www.youtube.com/watch?v=5t8bCtfZvOY"
+                    data-image="assets/img/portfolio/doify.png"
+                    target="_blank"
+                    class="gallery__link">
+                    <img
+                      src="assets/img/portfolio/doify.png"
+                      class="gallery__image"
+                      alt="thumbnail_project"
+                      height="800"
+                      width="800" />
+                  </a>
+                  <div class="card__tags d-flex flex-wrap">
+                    <a
+                      href="https://github.com/Mariella-Pasamonte/Dowee2"
+                      target="_blank"
+                      class="rounded-tag opposite"
+                      style="color: white">
+                      <span>Doify Github Link</span>
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="col-12 col-md-6 gallery__item grid-item animate-card-2">
+                  <a
+                    href="https://github.com/Jefrey-Doria/StaffMaster/tree/main"
+                    data-image="assets/img/portfolio/staffmaster.png"
+                    target="_blank"
+                    class="gallery__link">
+                    <img
+                      src="assets/img/portfolio/staffmaster.png"
+                      class="gallery__image"
+                      alt="thumbnail_project"
+                      height="800"
+                      width="800" />
+                  </a>
+                  <div class="card__tags d-flex flex-wrap">
+                    <a
+                      href="https://github.com/Jefrey-Doria/StaffMaster/tree/main"
+                      target="_blank"
+                      class="rounded-tag opposite"
+                      style="color: white">
+                      <span>StaffMaster Github Link</span>
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="col-12 col-md-6 gallery__item grid-item animate-card-2">
+                  <a
+                    href="https://www.youtube.com/watch?v=Ds14zhfHEvE"
+                    data-image="assets/img/portfolio/coffeeloft.png"
+                    target="_blank"
+                    class="gallery__link">
+                    <img
+                      src="assets/img/portfolio/coffeeloft.png"
+                      class="gallery__image"
+                      alt="thumbnail_project"
+                      height="800"
+                      width="800" />
+                  </a>
+                  <div class="card__tags d-flex flex-wrap">
+                    <a
+                      href="https://github.com/Jefrey-Doria/Sample-Ecommerce"
+                      target="_blank"
+                      class="rounded-tag opposite"
+                      style="color: white">
+                      <span>CoffeeLoft Github Link</span>
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="col-12 col-md-6 gallery__item grid-item animate-card-2">
+                  <a
+                    href="https://github.com/jbcabintoy14/PBD-Sample-Web-Application/tree/JS_Integrated_Drumset_2"
+                    data-image="assets/img/portfolio/drumkit.png"
+                    target="_blank"
+                    class="gallery__link">
+                    <img
+                      src="assets/img/portfolio/drumkit.png"
+                      class="gallery__image"
+                      alt="thumbnail_project"
+                      height="800"
+                      width="800" />
+                  </a>
+                  <div class="card__tags d-flex flex-wrap">
+                    <a
+                      href="https://github.com/jbcabintoy14/PBD-Sample-Web-Application/tree/JS_Integrated_Drumset_2"
+                      target="_blank"
+                      class="rounded-tag opposite"
+                      style="color: white">
+                      <span>Sample Drumkit Github Link</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Portfolio Section End -->
+
+        <!-- About Me Section Start -->
+        <section id="about" class="inner about">
+          <div class="content__block section-grid-title">
+            <p class="h2__subtitle animate-in-up">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="13px"
+                height="13px"
+                viewBox="0 0 13 13"
+                fill="currentColor">
+                <path
+                  fill="currentColor"
+                  d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+              </svg>
+              <span>About Me</span>
+            </p>
+            <h2 class="h2__title animate-in-up">
+              Who Am I And What I Do
+            </h2>
+          </div>
+          <!-- About Me Section-->
+          <div class="content__block grid-block block-large">
+            <div class="container-fluid p-0">
+              <div class="row g-0 justify-content-between">
+                <!--Left side About Me Description Start -->
+                <div class="col-12 col-xl-8 grid-item about-descr">
+                  <p class="about-descr__text animate-in-up">
+                    I am <a style="color: var(--t-accent)">Jefrey Doria</a>, a freelance programmer proficient in designing, implementing
+                    , and maintaining complex software applications. Skilled in programming languages such as
+                    <a href="#0" class="text-link">Javascript, Python, C++, and many more</a>. My passion to contribute innovative software 
+                    solutions and leveraging my technical expertise to drive business growth and success is what motivates me.
+
+                  </p>
+                  <p class="about-descr__text animate-in-up">
+                    I am also a Multi-Talented Video Editor with more than 5 years of contributions in developing and producing
+                    multi-media video content. Skilled in Editing, Color Grading, and Motion Graphics. Proficient in the English Language (C2)
+                    with a proven track record of <a style="color: var(--t-accent)">producing high quality work and garnering millions of views</a> on past videos edited.
+                  </p>
+                  <div class="btn-group about-descr__btnholder animate-in-up">
+                    <a
+                      class="btn mobile-vertical btn-default btn-hover btn-hover-accent"
+                      href="assets/Jefrey Doria Resume.pdf"
+                      download="Jefrey_Doria_Resume.pdf">
+                      <span class="btn-caption">Download CV</span>
+                      <i class="ph-bold ph-download-simple"></i>
+                    </a>
+                  </div>
+                </div>
+                <!-- Left Side About Me Description End -->
+                <!-- Right Side About Me Information Start -->
+                <div class="col-12 col-xl-4 grid-item about-info">
+                  <div class="about-info__item animate-in-up">
+                    <h6>
+                      <small class="top">Name</small>
+                      Jefrey Doria
+                    </h6>
+                  </div>
+                  <div class="about-info__item animate-in-up">
+                    <h6>
+                      <small class="top">Phone</small>
+                      <a class="text-link-bold" href="tel:+639480998047">
+                        +63 948 099 8047
+                      </a>
+                    </h6>
+                  </div>
+                  <div class="about-info__item animate-in-up">
+                    <h6>
+                      <small class="top">Email</small>
+                      <a
+                        class="text-link-bold"
+                        href="mailto:jefreydoriawork@gmail.com">
+                        jefreydoriawork@gmail.com
+                      </a>
+                    </h6>
+                  </div>
+                  <div class="about-info__item animate-in-up">
+                    <h6>
+                      <small class="top">Location</small>
+                      <a
+                        class="text-link-bold"
+                        href="https://maps.app.goo.gl/WPBAQ68ydnp6mp4BA"
+                        target="_blank">
+                        Tagbilaran City, Bohol
+                      </a>
+                    </h6>
+                  </div>
+                </div>
+                <!--Right Side Information About Me Ending-->
+              </div>
+            </div>
+            <!-- Statistics and Achievements-->
+          <div class="content__block grid-block">
+            <div
+              class="achievements d-flex flex-column flex-md-row align-items-md-stretch">
+              <!-- achievements single item -->
+              <div
+                class="achievements__item d-flex flex-column grid-item animate-card-3">
+                <div class="achievements__card">
+                  <p class="achievements__number">20+</p>
+                  <p class="achievements__descr">Happy clients</p>
+                </div>
+              </div>
+              <!-- achievements single item -->
+              <div
+                class="achievements__item d-flex flex-column grid-item animate-card-3">
+                <div class="achievements__card">
+                  <p class="achievements__number">6+</p>
+                  <p class="achievements__descr">Years of experience</p>
+                </div>
+              </div>
+              <!-- achievements single item -->
+              <div
+                class="achievements__item d-flex flex-column grid-item animate-card-3">
+                <div class="achievements__card">
+                  <p class="achievements__number">200+</p>
+                  <p class="achievements__descr">Projects done</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+          <!-- About Me End -->
+
+          <!-- Services Section Start-->
+          <section id="services" class="inner services">
+          <div class="content__block section-grid-title">
+            <p class="h2__subtitle animate-in-up">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="13px"
+                height="13px"
+                viewBox="0 0 13 13"
+                fill="currentColor">
+                <path
+                  fill="currentColor"
+                  d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+              </svg>
+              <span>Services Offered</span>
+            </p>
+            <h2 class="h2__title animate-in-up">
+              Creating Solutions To Your Problems
+            </h2>
+          </div>
+          <!-- Services Start -->
+          <div class="content__block grid-block">
+            <div class="container-fluid p-0">
+              <div class="row g-0 align-items-stretch cards">
+                <!-- services cards grid single item -->
+                <div
+                  class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                  <div class="cards__card d-flex flex-column">
+                    <div class="cards__descr">
+                      <h4 class="cards__title animate-in-up">
+                        Frontend
+                        <br />
+                        development
+                      </h4>
+                      <div class="cards__tags d-flex flex-wrap animate-in-up">
+                        <span class="rounded-tag tag-outline">
+                          UI/UX Design
+                        </span>
+                        <span class="rounded-tag tag-outline">
+                          Design to Code
+                        </span>
+                      </div>
+                      <p class="small cards__text animate-in-up">
+                        Create responsive, user-friendly interfaces—designed to deliver seamless experiences across all devices and platforms.
+                      </p>
+                    </div>
+                    <div class="cards__image d-flex animate-in-up">
+                      <img
+                        src="assets/img/services/frontend.png"
+                        alt="Service/Feature Image" />
+                    </div>
+                  </div>
+                </div>
+                <!-- services grid cards single item -->
+                <div
+                  class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                  <div class="cards__card d-flex flex-column">
+                    <div class="cards__descr">
+                      <h4 class="cards__title animate-in-up">
+                        Video Editing<br/>Expertise
+                      </h4>
+                      <div class="cards__tags d-flex flex-wrap animate-in-up">
+                        <span class="rounded-tag tag-outline">
+                          Premiere Pro
+                        </span>
+                        <span class="rounded-tag tag-outline">
+                          After Effects
+                        </span>
+                      </span>
+                      <span class="rounded-tag tag-outline">
+                        Davinci Resolve
+                      </span>
+                      </div>
+                      <p class="small cards__text animate-in-up">
+                        Transform raw footage into polished, high-quality content—designed to captivate audiences and tell your story effectively.
+                      </p>
+                    </div>
+                    <div class="cards__image d-flex animate-in-up">
+                      <img
+                        src="assets/img/services/premiere.png"
+                        alt="Service/Feature Image" />
+                    </div>
+                  </div>
+                </div>
+                <!-- services grid cards single item -->
+                <div
+                  class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                  <div class="cards__card d-flex flex-column">
+                    <div class="cards__descr">
+                      <h4 class="cards__title animate-in-up">
+                        Software <br/> Engineering
+                      </h4>
+                      <div class="cards__tags d-flex flex-wrap animate-in-up">
+                        <span class="rounded-tag tag-outline">
+                          Fullstack Development
+                        </span>
+                        <span class="rounded-tag tag-outline">Complex Systems</span>
+                      </div>
+                      <p class="small cards__text animate-in-up">
+                        Deliver custom, scalable, and high-performance solutions—designed, developed, and maintained to meet your unique business needs.
+                      </p>
+                    </div>
+                    <div class="cards__image d-flex">
+                      <img
+                        src="assets/img/services/engineering.png"
+                        alt="Service/Feature Image" />
+                    </div>
+                  </div>
+                </div>
+                <!-- services grid cards single item -->
+                <div
+                  class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                  <div class="cards__card d-flex flex-column">
+                    <div class="cards__descr">
+                      <h4 class="cards__title animate-in-up">
+                        Graphic 
+                        <br />
+                        Designing
+                      </h4>
+                      <div class="cards__tags d-flex flex-wrap animate-in-up">
+                        <span class="rounded-tag tag-outline">Designing</span>
+                        <span class="rounded-tag tag-outline">Figma Balls</span>
+                        <span class="rounded-tag tag-outline">
+                          Photoshop
+                        </span>
+                      </div>
+                      <p class="small cards__text animate-in-up">
+                        Craft eye-catching visuals and engaging thumbnails—designed to enhance your brand's identity and attract your target audience.
+                      </p>
+                    </div>
+                    <div class="cards__image d-flex animate-in-up">
+                      <img
+                        src="assets/img/services/graphicdesign.png"
+                        alt="Service/Feature Image" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Services End -->
+        </section>
+        <!-- Services Section End -->
+
+        <!-- Resume Section Start -->
+        <section id="resume" class="inner resume">
+          <div class="content__block block-large">
+            <p class="h2__subtitle animate-in-up">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="13px"
+                height="13px"
+                viewBox="0 0 13 13"
+                fill="currentColor">
+                <path
+                  fill="currentColor"
+                  d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+              </svg>
+              <span>Resume</span>
+            </p>
+            <h2 class="h2__title animate-in-up">
+              Education and practical experience
+            </h2>
+            <p class="h2__text animate-in-up">
+              Here you will see all the relevant work experience and education that I have acquired over the years. Feel free to download my resume for more information.
+            </p>
+            <div class="btn-group about-descr__btnholder animate-in-up">
+              <a
+                class="btn mobile-vertical btn-default btn-hover btn-hover-accent"
+                href="assets/Jefrey Doria Resume.pdf"
+                download="Jefrey_Doria_Resume.pdf">
+                <span class="btn-caption">Download CV</span>
+                <i class="ph-bold ph-download-simple"></i>
+              </a>
+            </div>
+          </div>
+          <!-- Experience Section Start -->
+          <div class="content__block block-large">
+            <div class="section-h3">
+              <h3 class="h3__title animate-in-up">Work Experience</h3>
+            </div>
+            <!-- Work Experience Start -->
+            <div class="container-fluid p-0 resume-lines">
+              <!-- Row item  1-->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">
+                    2021 - Present
+                  </span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">
+                    Systems Engineer & Video Production Specialist
+                  </h5>
+                  <p class="resume-lines__source animate-in-up">
+                    of
+                    <a href="#0" class="text-link-bold" target="_blank">
+                      Techflow.AI
+                    </a>
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">
+                    Engineered and implemented customized automation solutions on Make, tailoring workflows to meet the needs of clients. Also, produced and edited high-quality video content for the company's marketing campaigns.
+                  </p>
+                </div>
+              </div>
+              
+              <!-- End Row-->
+              <!-- Row item 2-->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">2022-Present</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">
+                    CEO & Founder
+                  </h5>
+                  <p class="resume-lines__source animate-in-up">
+                    Of
+                    <a href="#0" class="text-link-bold" target="_blank">
+                      LuxeNoireAtelier
+                    </a>
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">
+                    Launched and scaled a startup, securing international clients within the year of inception and expanding the company workforce to over 15 employees, while strategically navigating early-stage market challenges.
+                  </p>
+                </div>
+              </div>
+              <!-- End Row-->
+               
+              <!-- Row item 3-->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">
+                    2023 - Present
+                  </span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">
+                    Chief Of Design
+                  </h5>
+                  <p class="resume-lines__source animate-in-up">
+                    Of
+                    <a href="#0" class="text-link-bold" target="_blank">
+                      Quantum Blue Technologies Incorporated
+                    </a>
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">
+                    Spearheaded  the strategic management of the company's design framework, shapoing and refining the visual identity across all facets of our operations
+                  </p>
+                </div>
+              </div>
+              
+              <!-- End Row-->
+            </div>
+            <!-- Education Lines End -->
+          </div>
+
+          <!-- Education Start -->
+          <div class="content__block block-large">
+            <div class="section-h3">
+              <h3 class="h3__title animate-in-up">Education</h3>
+            </div>
+
+            <!-- Education Lines Start -->
+            <div class="container-fluid p-0 resume-lines">
+              <!-- Row item -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">
+                    2019 - 2025
+                  </span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">Bachelor In Science In Computer Sciencer</h5>
+                  <p class="resume-lines__source animate-in-up">
+                    in 
+                    <a href="#0" class="text-link-bold" target="_blank">
+                      Visayas State University
+                    </a>
+                  </p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">
+                    Computer science students master coding, software design, and problem-solving, preparing for careers in tech innovation and software development.
+                  </p>
+                </div>
+              </div>
+              <!-- End Row-->
+            </div>
+            <!-- Experience Lines End -->
+          </div>
+
+          <div class="content__block">
+            <div class="section-h3 section-h3-grid">
+              <h3 class="h3__title animate-in-up">TechStack And Tools I Use</h3>
+            </div>
+          </div>
+          <!-- Tech & Tools Used -->
+          <div class="content__block grid-block block-large">
+            <!-- Tools List Start -->
+            <div class="tools-cards d-flex justify-content-start flex-wrap">
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="assets/img/icons/icon-photoshop.svg"
+                    alt="Tools Icon" />
+                  <h6 class="tools-cards__caption animate-in-up">Photoshop</h6>
+                </div>
+              </div>
+              <!-- item end -->
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="assets/img/icons/icon-premiere.svg"
+                    alt="Tools Icon" />
+                  <h6 class="tools-cards__caption animate-in-up">Premiere</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="assets/img/icons/icon-illustrator.svg"
+                    alt="Tools Icon" />
+                  <h6 class="tools-cards__caption animate-in-up">
+                    Illustrator
+                  </h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="assets/img/icons/icon-ae.svg"
+                    alt="Tools Icon" />
+                  <h6 class="tools-cards__caption animate-in-up">
+                    After Effects
+                  </h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="assets/img/icons/icon-figma.svg"
+                    alt="Tools Icon" />
+                  <h6 class="tools-cards__caption animate-in-up">Figma</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="assets/img/icons/icon-js.svg"
+                    alt="Tools Icon" />
+                  <h6 class="tools-cards__caption animate-in-up">Javascript</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="assets/img/icons/icon-node.svg"
+                    alt="Tools Icon" />
+                  <h6 class="tools-cards__caption animate-in-up">Node.js</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="assets/img/icons/icon-python.svg"
+                    alt="Tools Icon" />
+                  <h6 class="tools-cards__caption animate-in-up">Python</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="assets/img/icons/icon-github.svg"
+                    alt="Tools Icon" />
+                  <h6 class="tools-cards__caption animate-in-up">github</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="assets/img/icons/icon-sql.svg"
+                    alt="Tools Icon" />
+                  <h6 class="tools-cards__caption animate-in-up">MYSQL</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="assets/img/icons/icon-html.svg"
+                    alt="Tools Icon" />
+                  <h6 class="tools-cards__caption animate-in-up">HTML5</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="assets/img/icons/icon-css.svg"
+                    alt="Tools Icon" />
+                  <h6 class="tools-cards__caption animate-in-up">CSS3</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="assets/img/icons/icon-notion.svg"
+                    alt="Tools Icon" />
+                  <h6 class="tools-cards__caption animate-in-up">Notion</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="assets/img/icons/icon-trello.svg"
+                    alt="Tools Icon" />
+                  <h6 class="tools-cards__caption animate-in-up">Trello</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img
+                    class="tools-cards__icon animate-in-up"
+                    src="assets/img/icons/icon-slack.svg"
+                    alt="Tools Icon" />
+                  <h6 class="tools-cards__caption animate-in-up">Slack</h6>
+                </div>
+              </div>
+            </div>
+            <!-- Tools List End -->
+          </div>
+
+          <div class="content__block section-title">
+            <p class="h2__subtitle animate-in-up">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="13px"
+                height="13px"
+                viewBox="0 0 13 13"
+                fill="currentColor">
+                <path
+                  fill="currentColor"
+                  d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+              </svg>
+              <span>Testimonials</span>
+            </p>
+            <h2 class="h2__title animate-in-up">What Clients Say</h2>
+          </div>
+
+          <!-- Testimonials Slider Start -->
+          <div class="content__block">
+            <div class="testimonials-slider">
+              <!-- slider main container -->
+              <div class="swiper-testimonials">
+                <!-- additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- slides -->
+                  <div class="swiper-slide">
+                    <div class="testimonials-card animate-in-up">
+                      <div
+                        class="testimonials-card__tauthor d-flex animate-in-up">
+                        <div class="tauthor__avatar">
+                          <img
+                            src="assets/img/clients/manuel.jpg"
+                            alt="Review Author" />
+                        </div>
+                        <div
+                          class="tauthor__info d-flex flex-column justify-content-center">
+                          <p class="tauthor__name">Manuel Gick</p>
+                          <p class="tauthor__position">
+                            CEO and Founder of
+                            <a href="#0" class="text-link-bold" target="_blank">
+                              Techflow.AI
+                            </a>
+                          </p>
+                          <div class="tauthor__rating d-flex">
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="testimonials-card__descr animate-in-up">
+                        <p>
+                          Jefrey has been with us for over 4 years now and has been there ever since I started the company. He has been a <a style="color: var(--t-accent)">great asset to the team and has been a 
+                          great help in the growth of the company.</a>
+                          His work ethic and dedication to the company is something that I truly admire. I would <a style="color: var(--t-accent)">recommend him to anyone who is looking for a dedicated and hardworking individual</a>.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonials-card animate-in-up">
+                      <div
+                        class="testimonials-card__tauthor d-flex animate-in-up">
+                        <div class="tauthor__avatar">
+                          <img
+                            src="assets/img/clients/dom.png"
+                            alt="Review Author" />
+                        </div>
+                        <div
+                          class="tauthor__info d-flex flex-column justify-content-center">
+                          <p class="tauthor__name">Dom Bavaro</p>
+                          <p class="tauthor__position">
+                            Founder of
+                            <a href="#0" class="text-link-bold" target="_blank">
+                              Lead Vortex
+                            </a>
+                          </p>
+                          <div class="tauthor__rating d-flex">
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="testimonials-card__descr animate-in-up">
+                        <p>
+                          Working with Jefrey has been an absolute pleasure. <a style="color: var(--t-accent)">Their dedication, attention to detail, 
+                          and exceptional problem-solving skills</a>have consistently exceeded our expectations. Jefrey
+                          goes above and beyond in every task, delivering high-quality work with a positive attitude. 
+                          He is a true team player and a <a style="color: var(--t-accent)">valuable asset to our organization. Highly recommend!</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- navigation buttons -->
+                <div
+                  class="swiper-button-prev mxd-slider-btn-square mxd-slider-btn-square-prev animate-in-up">
+                  <a
+                    class="btn btn-square btn-square-s btn-outline slide-left"
+                    href="#0">
+                    <i class="ph-bold ph-caret-left"></i>
+                  </a>
+                </div>
+                <div
+                  class="swiper-button-next mxd-slider-btn-square mxd-slider-btn-square-next animate-in-up">
+                  <a
+                    class="btn btn-square btn-square-s btn-outline slide-right"
+                    href="#0">
+                    <i class="ph-bold ph-caret-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Testimonials Slider End -->
+          </div>
+        </section>
+        <!-- Resume Section End -->
+
+        <!-- Footers -->
+        <section id="contact" class="inner contact">
+          </div>
+          <!-- Footer Socials -->
+          <div class="content__block grid-block">
+            <div class="socials-cards d-flex justify-content-start flex-wrap">
+              <div
+                class="socials-cards__item d-flex grid-item-s animate-card-5">
+                <div class="socials-cards__card">
+                  <i class="ph ph-github-logo"></i>
+                  <a
+                    class="socials-cards__link"
+                    href="https://github.com/Jefrey-Doria"
+                    target="_blank"></a>
+                </div>
+              </div>
+              <div
+                class="socials-cards__item d-flex grid-item-s animate-card-5">
+                <div class="socials-cards__card">
+                  <i class="ph ph-linkedin-logo"></i>
+                  <a
+                    class="socials-cards__link"
+                    href="https://www.linkedin.com/in/jefrey-doria-3a67181b9/"
+                    target="_blank"></a>
+                </div>
+              </div>
+              <div
+                class="socials-cards__item d-flex grid-item-s animate-card-5">
+                <div class="socials-cards__card">
+                  <i class="ph-bold ph-instagram-logo"></i>
+                  <a
+                    class="socials-cards__link"
+                    href="https://www.instagram.com/jefillist/"
+                    target="_blank"></a>
+                </div>
+              </div>
+              <div
+                class="socials-cards__item d-flex grid-item-s animate-card-5">
+                <div class="socials-cards__card">
+                  <i class="ph ph-facebook-logo"></i>
+                  <a
+                    class="socials-cards__link"
+                    href="https://www.facebook.com/Jefillist/"
+                    target="_blank"></a>
+                </div>
+              </div>
+              <div
+                class="socials-cards__item d-flex grid-item-s animate-card-5">
+                <div class="socials-cards__card">
+                  <i class="ph ph-youtube-logo"></i>
+                  <a
+                    class="socials-cards__link"
+                    href="https://www.youtube.com/@enviuskidd1404"
+                    target="_blank"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Footer Content -->
+          <div class="content__block">
+            <div class="teaser"></div>
+          </div>
+          <div class="content__block">
+            <div class="container-fluid p-0 contact-lines animate-in-up">
+              <div class="row g-0 contact-lines__item">
+                <div class="col-12 col-md-4 contact-lines__data">
+                  <p class="contact-lines__title animate-in-up">Location</p>
+                  <p class="contact-lines__text animate-in-up">
+                    <a
+                      class="text-link-bold"
+                      href="https://maps.app.goo.gl/nsrhqtDCCvZQ78QNA"
+                      target="_blank">
+                      Tagbilaran City, Bohol
+                    </a>
+                  </p>
+                </div>
+                <div class="col-12 col-md-4 contact-lines__data">
+                  <p class="contact-lines__title animate-in-up">Phone</p>
+                  <p class="contact-lines__text animate-in-up">
+                    <a class="text-link-bold" href="tel:+639480998047">
+                      +63 948 099 8047
+                    </a>
+                  </p>
+                </div>
+                <div class="col-12 col-md-4 contact-lines__data">
+                  <p class="contact-lines__title animate-in-up">Email</p>
+                  <p class="contact-lines__text animate-in-up">
+                    <a
+                      class="text-link-bold"
+                      href="mailto:jefreydoriawork@gmail.com">
+                      jefreydoriawork@gmail.com
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Photoswipe shenanigans -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+      <!-- Background of PhotoSwipe.
+      It's a separate element, as animating opacity is faster than rgba(). -->
+      <div class="pswp__bg"></div>
+
+      <!-- Slides wrapper with overflow:hidden. -->
+      <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <!--  Controls are self-explanatory. Order can be changed. -->
+
+            <div class="pswp__counter"></div>
+
+            <button
+              class="pswp__button pswp__button--close link-s"
+              title="Close (Esc)"></button>
+
+            <button
+              class="pswp__button pswp__button--share link-s"
+              title="Share"></button>
+
+            <button
+              class="pswp__button pswp__button--fs link-s"
+              title="Toggle fullscreen"></button>
+
+            <button
+              class="pswp__button pswp__button--zoom link-s"
+              title="Zoom in/out"></button>
+
+            <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+            <!-- element will get class pswp__preloader-active when preloader is running -->
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+            <div class="pswp__share-tooltip"></div>
+          </div>
+
+          <button
+            class="pswp__button pswp__button--arrow--left link-s"
+            title="Previous (arrow left)"></button>
+
+          <button
+            class="pswp__button pswp__button--arrow--right link-s"
+            title="Next (arrow right)"></button>
+
+          <div class="pswp__caption">
+            <div class="pswp__caption__center"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Load Scripts Start >-->
+    <script src="js/libs.min.js"></script>
+    <!-- Gradient Animation -->
+    <script>
+      const randomX = random(-400, 400);
+      const randomY = random(-200, 200);
+      const randomDelay = random(0, 50);
+      const randomTime = random(20, 40);
+      const randomTime2 = random(5, 12);
+      const randomAngle = random(-30, 150);
+
+      const blurs = gsap.utils.toArray(".blur");
+      blurs.forEach((blur) => {
+        gsap.set(blur, {
+          x: randomX(-1),
+          y: randomX(1),
+          rotation: randomAngle(-1),
+        });
+
+        moveX(blur, 1);
+        moveY(blur, -1);
+        rotate(blur, 1);
+      });
+
+      function rotate(target, direction) {
+        gsap.to(target, randomTime2(), {
+          rotation: randomAngle(direction),
+          ease: Sine.easeInOut,
+          onComplete: rotate,
+          onCompleteParams: [target, direction * -1],
+        });
+      }
+
+      function moveX(target, direction) {
+        gsap.to(target, randomTime(), {
+          x: randomX(direction),
+          ease: Sine.easeInOut,
+          onComplete: moveX,
+          onCompleteParams: [target, direction * -1],
+        });
+      }
+
+      function moveY(target, direction) {
+        gsap.to(target, randomTime(), {
+          y: randomY(direction),
+          ease: Sine.easeInOut,
+          onComplete: moveY,
+          onCompleteParams: [target, direction * -1],
+        });
+      }
+
+      function random(min, max) {
+        const delta = max - min;
+        return (direction = 1) => (min + delta * Math.random()) * direction;
+      }
+    </script>
+    <script src="js/app.js"></script>
+    <!--<script src="js/gallery-init.js"></script>-->
   </body>
 </html>
