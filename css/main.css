@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
 
-.image-background {
-  background-image: url("https://dummyimage.com/2560x1440/4d4d4d/636363");
-}
 :root {
   --_size: 1.6rem;
   --_font-default: "Syne", sans-serif;
@@ -58,33 +55,6 @@
 }
 
 /* defaults */
-@media (prefers-color-scheme: light) {
-  :root {
-    --base: var(--base--light);
-    --base-tint: var(--base-tint--light);
-    --base-shade: var(--base-shade--light);
-    --accent: var(--accent--light);
-    --secondary: var(--secondary--light);
-    --secondary-rgba: var(--secondary-rgba--light);
-    --stroke-controls: var(--stroke-controls--light);
-    --stroke-controls-neutral: var(--stroke-controls-neutral--light);
-    --stroke-elements: var(--stroke-elements--light);
-    --t-bright: var(--t-bright--light);
-    --t-medium: var(--t-medium--light);
-    --t-muted: var(--t-muted--light);
-    --t-accent: var(--t-accent--light);
-    --t-secondary: var(--t-secondary--light);
-    --t-disabled: var(--t-disabled--light);
-    --t-placeholder: var(--t-placeholder--light);
-    --base-opp: var(--base-opp--light);
-    --t-opp-bright: var(--t-opp-bright--light);
-    --t-opp-medium: var(--t-opp-medium--light);
-    --t-opp-muted: var(--t-opp-muted--light);
-    --gradient-one: var(--gradient-one--light);
-    --gradient-two: var(--gradient-two--light);
-    --gradient-three: var(--gradient-three--light);
-  }
-}
 @media (prefers-color-scheme: dark) {
   :root {
     --base: var(--base--dark);
@@ -111,31 +81,6 @@
     --gradient-two: var(--gradient-two--dark);
     --gradient-three: var(--gradient-three--dark);
   }
-}
-[color-scheme="light"] {
-  --base: var(--base--light);
-  --base-tint: var(--base-tint--light);
-  --base-shade: var(--base-shade--light);
-  --accent: var(--accent--light);
-  --secondary: var(--secondary--light);
-  --secondary-rgba: var(--secondary-rgba--light);
-  --stroke-controls: var(--stroke-controls--light);
-  --stroke-controls-neutral: var(--stroke-controls-neutral--light);
-  --stroke-elements: var(--stroke-elements--light);
-  --t-bright: var(--t-bright--light);
-  --t-medium: var(--t-medium--light);
-  --t-muted: var(--t-muted--light);
-  --t-accent: var(--t-accent--light);
-  --t-secondary: var(--t-secondary--light);
-  --t-disabled: var(--t-disabled--light);
-  --t-placeholder: var(--t-placeholder--light);
-  --base-opp: var(--base-opp--light);
-  --t-opp-bright: var(--t-opp-bright--light);
-  --t-opp-medium: var(--t-opp-medium--light);
-  --t-opp-muted: var(--t-opp-muted--light);
-  --gradient-one: var(--gradient-one--light);
-  --gradient-two: var(--gradient-two--light);
-  --gradient-three: var(--gradient-three--light);
 }
 
 [color-scheme="dark"] {
